@@ -8,12 +8,12 @@ Feature: Call step in other step
       """
       <?php
 
-      use Behat\Behat\Context\TranslatedContextInterface,
-          Behat\Behat\Context\BehatContext,
-          Behat\Behat\Exception\PendingException,
-          Behat\Behat\Context\Step;
-      use Behat\Gherkin\Node\PyStringNode,
-          Behat\Gherkin\Node\TableNode;
+      use Behat\Behat\Context\TranslatedContextInterface;
+      use Behat\Behat\Context\BehatContext;
+      use Behat\Behat\Exception\PendingException;
+      use Behat\Behat\Context\Step;
+      use Behat\Gherkin\Node\PyStringNode;
+      use Behat\Gherkin\Node\TableNode;
       use Symfony\Component\Finder\Finder;
 
       require_once 'PHPUnit/Autoload.php';

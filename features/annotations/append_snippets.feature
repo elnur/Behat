@@ -11,10 +11,10 @@ Feature: Append snippets option
       require_once 'PHPUnit/Autoload.php';
       require_once 'PHPUnit/Framework/Assert/Functions.php';
 
-      use Behat\Behat\Context\BehatContext,
-          Behat\Behat\Exception\PendingException;
-      use Behat\Gherkin\Node\PyStringNode,
-          Behat\Gherkin\Node\TableNode;
+      use Behat\Behat\Context\BehatContext;
+      use Behat\Behat\Exception\PendingException;
+      use Behat\Gherkin\Node\PyStringNode;
+      use Behat\Gherkin\Node\TableNode;
 
       class FeatureContext extends BehatContext
       {
@@ -129,10 +129,10 @@ Feature: Append snippets option
       require_once 'PHPUnit/Autoload.php';
       require_once 'PHPUnit/Framework/Assert/Functions.php';
 
-      use Behat\Behat\Context\BehatContext,
-          Behat\Behat\Exception\PendingException;
-      use Behat\Gherkin\Node\PyStringNode,
-          Behat\Gherkin\Node\TableNode;
+      use Behat\Behat\Context\BehatContext;
+      use Behat\Behat\Exception\PendingException;
+      use Behat\Gherkin\Node\PyStringNode;
+      use Behat\Gherkin\Node\TableNode;
 
       class FeatureContext extends BehatContext
       {

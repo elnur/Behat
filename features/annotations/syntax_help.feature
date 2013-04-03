@@ -81,8 +81,8 @@ Feature: Syntax helpers
       """
       <?php
 
-      use Behat\Behat\Context\BehatContext,
-          Behat\Behat\Exception\PendingException;
+      use Behat\Behat\Context\BehatContext;
+      use Behat\Behat\Exception\PendingException;
 
       class FeatureContext extends BehatContext
       {
@@ -129,8 +129,8 @@ Feature: Syntax helpers
       """
       <?php
 
-      use Behat\Behat\Context\BehatContext,
-          Behat\Behat\Exception\PendingException;
+      use Behat\Behat\Context\BehatContext;
+      use Behat\Behat\Exception\PendingException;
 
       class FeatureContext extends BehatContext
       {
@@ -178,9 +178,9 @@ Feature: Syntax helpers
       """
       <?php
 
-      use Behat\Behat\Context\BehatContext,
-          Behat\Behat\Exception\PendingException,
-          Behat\Behat\Context\TranslatedContextInterface;
+      use Behat\Behat\Context\BehatContext;
+      use Behat\Behat\Exception\PendingException;
+      use Behat\Behat\Context\TranslatedContextInterface;
 
       class FeatureContext extends BehatContext implements TranslatedContextInterface
       {
@@ -249,8 +249,8 @@ Feature: Syntax helpers
       """
       <?php
 
-      use Behat\Behat\Context\BehatContext,
-          Behat\Behat\Exception\PendingException;
+      use Behat\Behat\Context\BehatContext;
+      use Behat\Behat\Exception\PendingException;
 
       class FeatureContext extends BehatContext
       {
@@ -307,8 +307,8 @@ Feature: Syntax helpers
       """
       <?php
 
-      use Behat\Behat\Context\BehatContext,
-          Behat\Behat\Exception\PendingException;
+      use Behat\Behat\Context\BehatContext;
+      use Behat\Behat\Exception\PendingException;
 
       class FeatureContext extends BehatContext
       {
@@ -355,9 +355,9 @@ Feature: Syntax helpers
       """
       <?php
 
-      use Behat\Behat\Context\BehatContext,
-          Behat\Behat\Exception\PendingException,
-          Behat\Behat\Context\TranslatedContextInterface;
+      use Behat\Behat\Context\BehatContext;
+      use Behat\Behat\Exception\PendingException;
+      use Behat\Behat\Context\TranslatedContextInterface;
 
       class FeatureContext extends BehatContext implements TranslatedContextInterface
       {

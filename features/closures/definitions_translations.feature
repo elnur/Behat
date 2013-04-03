@@ -8,12 +8,12 @@ Feature: Definitions translations
       """
       <?php
 
-      use Behat\Behat\Context\ClosuredContextInterface as Closured,
-          Behat\Behat\Context\TranslatedContextInterface as Translated,
-          Behat\Behat\Context\BehatContext,
-          Behat\Behat\Exception\PendingException;
-      use Behat\Gherkin\Node\PyStringNode,
-          Behat\Gherkin\Node\TableNode;
+      use Behat\Behat\Context\ClosuredContextInterface as Closured;
+      use Behat\Behat\Context\TranslatedContextInterface as Translated;
+      use Behat\Behat\Context\BehatContext;
+      use Behat\Behat\Exception\PendingException;
+      use Behat\Gherkin\Node\PyStringNode;
+      use Behat\Gherkin\Node\TableNode;
       use Symfony\Component\Finder\Finder;
 
       if (file_exists(__DIR__ . '/../support/bootstrap.php')) {
